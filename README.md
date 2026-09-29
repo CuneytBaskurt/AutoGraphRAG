@@ -1,6 +1,7 @@
 <p align="center">
   <img width="722" height="352" alt="System architecture diagram" src="https://github.com/user-attachments/assets/efe64e01-14c7-4c25-98e7-b9b764079216" />
 </p>
+
 # Project Overview
 
 This project presents an end-to-end GraphRAG (Graph-Enhanced Retrieval-Augmented Generation) architecture that brings relational data structures together with semantic inference processes.
