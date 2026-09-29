@@ -19,6 +19,7 @@ Reasons for choosing this dataset:
 * **Multi-hop Relationship Chains:** The core strength of the GraphRAG architecture is its ability to reason over complex, non-linear relationships. For example, deep chains such as *"the production genres of the albums that the tracks purchased by a customer belong to, and the manager to whom the support employee responsible for that sale reports"* require costly multiple `JOIN` operations in relational databases, whereas in the graph model they are resolved at low cost through direct edge traversals.
 * **Standardization and Verifiability:** Being a widely accepted reference schema in the industry makes it easy to verify both the inferences produced by the model and the resulting graph structure.
 
+<img width="836" height="566" alt="chinook" src="https://github.com/user-attachments/assets/b8b6a25e-e568-4b2e-a3ec-20961ce9d9e1" />
 
 
 
