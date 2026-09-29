@@ -27,10 +27,12 @@ Reasons for choosing this dataset:
 Before moving on to the stage of transforming relational data into the graph model, it is necessary to understand the theoretical foundations of the graph data model and the architectural advantages it offers compared to traditional relational systems.
 
 ### What Is a Graph?
-A graph is a non-linear data structure consisting of **nodes / vertices** that represent entities and **edges / relationships** that express the semantic and structural connections between these entities. Unlike hierarchical or strictly-schematized tables, graph models allow complex, multi-directional, and cyclic network relationships to be stored in their natural form. You can find more information right here: https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/
+A graph is a non-linear data structure consisting of **nodes / vertices** that represent entities and **edges / relationships** that express the semantic and structural connections between these entities. Unlike hierarchical or strictly-schematized tables, graph models allow complex, multi-directional, and cyclic network relationships to be stored in their natural form. 
+For more information: https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/
 
 ### Why a Graph Database (Graph DB)?
 In traditional relational databases (RDBMS), querying deep relationships requires costly `JOIN` tables and Cartesian products. As the relationship depth (number of hops) increases, query execution time grows exponentially. 
+For more information: https://neo4j.com/docs/getting-started/graph-database/
 
 Graph databases work with an **Index-Free Adjacency** architecture. Each node stores the direct memory addresses (pointers) of the neighboring nodes it is connected to. As a result, regardless of the total size of the database, the cost of traversing between relationships is constant, taking $O(1)$ time.
 
@@ -47,6 +49,7 @@ Among the graph databases available on the market (Neo4j, Amazon Neptune, Memgra
 * **Native Graph Architecture (Native Graph Storage):** Stores data directly as a graph at both the storage and processing layers.
 * **Cypher Query Language:** A rich declarative syntax that makes it possible to express graph traversals intuitively and in an optimized way compared to SQL.
 * **Integration and Ecosystem:** Vector indexing capabilities, LLM/GraphRAG libraries, and rich driver support.
+For more information: https://neo4j.com/docs/getting-started/whats-neo4j/
 
 ---
 
@@ -119,12 +122,7 @@ Cypher is a declarative query language developed by Neo4j that works on graphs w
 | **Hallucination Risk** | Risk of irrelevant subgraphs being included in the context | Dataset verified directly by the database engine |
 | **Data Freshness** | Embeddings must be updated as the graph changes | The most up-to-date data is queried directly the moment the graph is updated |
 
-
-
-
-## Installation and Running (Getting Started)
-
-Follow the steps below in order to get the project up and running in your local environment.
+You can find GraphRAG methods right here: https://graphrag.com/concepts/intro-to-graphrag/
 
 ### Prerequisites
 * **Java:** JDK 17 or higher (depending on the version used)
@@ -133,11 +131,6 @@ Follow the steps below in order to get the project up and running in your local 
 * **Graph Database:** Neo4j (Local Instance or Neo4j Desktop)
 * **LLM Access:** Google Gemini API Key
 
----
 
-### Step-by-Step Installation
 
-#### 1. Clone the Repository
-```bash
-git clone [https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ.git)
-cd REPO_ADINIZ
+
