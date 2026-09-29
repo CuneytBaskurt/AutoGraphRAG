@@ -1,5 +1,6 @@
-<img width="722" height="352" alt="Başlıksız Diyagram drawio (1)" src="https://github.com/user-attachments/assets/efe64e01-14c7-4c25-98e7-b9b764079216" />
-
+<p align="center">
+  <img width="722" height="352" alt="System architecture diagram" src="https://github.com/user-attachments/assets/efe64e01-14c7-4c25-98e7-b9b764079216" />
+</p>
 # Project Overview
 
 This project presents an end-to-end GraphRAG (Graph-Enhanced Retrieval-Augmented Generation) architecture that brings relational data structures together with semantic inference processes.
@@ -20,9 +21,9 @@ Reasons for choosing this dataset:
 * **Rich Relational Network:** The schema contains 11 interrelated tables and numerous foreign key dependencies. The presence of directly or indirectly related tables provides an ideal ground for testing the advantages of graph modeling.
 * **Multi-hop Relationship Chains:** The core strength of the GraphRAG architecture is its ability to reason over complex, non-linear relationships. For example, deep chains such as *"the production genres of the albums that the tracks purchased by a customer belong to, and the manager to whom the support employee responsible for that sale reports"* require costly multiple `JOIN` operations in relational databases, whereas in the graph model they are resolved at low cost through direct edge traversals.
 * **Standardization and Verifiability:** Being a widely accepted reference schema in the industry makes it easy to verify both the inferences produced by the model and the resulting graph structure.
-
+<p
 <img width="836" height="566" alt="chinook" src="https://github.com/user-attachments/assets/b8b6a25e-e568-4b2e-a3ec-20961ce9d9e1" />
-
+/p>
 
 
 ## from Relational to Graph
