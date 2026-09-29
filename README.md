@@ -27,10 +27,10 @@ Reasons for choosing this dataset:
 Before moving on to the stage of transforming relational data into the graph model, it is necessary to understand the theoretical foundations of the graph data model and the architectural advantages it offers compared to traditional relational systems.
 
 ### What Is a Graph?
-A graph is a non-linear data structure consisting of **nodes / vertices** that represent entities and **edges / relationships** that express the semantic and structural connections between these entities. Unlike hierarchical or strictly-schematized tables, graph models allow complex, multi-directional, and cyclic network relationships to be stored in their natural form.
+A graph is a non-linear data structure consisting of **nodes / vertices** that represent entities and **edges / relationships** that express the semantic and structural connections between these entities. Unlike hierarchical or strictly-schematized tables, graph models allow complex, multi-directional, and cyclic network relationships to be stored in their natural form. You can find more information right here: https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/
 
 ### Why a Graph Database (Graph DB)?
-In traditional relational databases (RDBMS), querying deep relationships requires costly `JOIN` tables and Cartesian products. As the relationship depth (number of hops) increases, query execution time grows exponentially.
+In traditional relational databases (RDBMS), querying deep relationships requires costly `JOIN` tables and Cartesian products. As the relationship depth (number of hops) increases, query execution time grows exponentially. 
 
 Graph databases work with an **Index-Free Adjacency** architecture. Each node stores the direct memory addresses (pointers) of the neighboring nodes it is connected to. As a result, regardless of the total size of the database, the cost of traversing between relationships is constant, taking $O(1)$ time.
 
